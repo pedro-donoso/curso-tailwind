@@ -1,4 +1,4 @@
-![tailwind](https://github.com/pedro-donoso/curso-tailwind/assets/68760595/e1f82ee8-163a-4278-9e28-91f6ed961344)
+![cards](https://github.com/pedro-donoso/curso-tailwind/assets/68760595/fc930ad0-a816-44d2-9dd0-84dde7b696a4)
 
 ### curso-tailwind
 
