@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="tailwind.css" />
+
+    <title>
+        Curso Tailwind
+    </title>
+</head>
+
+<body class="bg-slate-300">
+
+    <header class="bg-white px-6 shadow">
+        <div class="flex h-16 items-center justify-between">
+            <button class="text-slate-500 hover:bg-sky-500 hover:text-slate-100 rounded p-1 -ml-1 transition-colors focus:ring-2 focus:ring-slate-200">
+                <svg 
+                class="h-6 w-6"
+                fill="none" stroke-width="1.5" 
+                stroke="currentColor" 
+                viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
+                </svg>
+            </button>
+        <svg data-slot="icon" 
+        fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5">
+            </path>
+        </svg>
+            <div>
+                <button>theme</button>
+                <button>user</button>
+            </div>
+        </div>
+    </header>
+
+</body>
+
+</html>
