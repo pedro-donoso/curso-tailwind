@@ -16,4 +16,5 @@ utilizo expresion regular ['./*.html'] (indico que todos los archivos utilizaran
 
 indico archivo base que utilizara para compilar y nombre del archivo de salida
 
-#### 5.
+#### 5. Agrego vite al proyecto
+`npm i -D vite postcss autoprefixer`
