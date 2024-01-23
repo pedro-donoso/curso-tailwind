@@ -1,5 +1,7 @@
 ![cards](https://github.com/pedro-donoso/curso-tailwind/assets/68760595/fc930ad0-a816-44d2-9dd0-84dde7b696a4)
 
+## https://tailwind-news.netlify.app/
+
 ### curso-tailwind
 
 #### 1. Iniciar npm:
