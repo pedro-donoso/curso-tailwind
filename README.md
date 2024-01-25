@@ -10,40 +10,45 @@
 #### 2. Instalar tailwindcss en las dependencias de desarrollo:
 `npm install -D tailwindcss`
 
-#### 3. Creo archivo de configuración de tailwind:
+#### 3. Ignorar carpeta node_modules:
+Crear archivo .gitignore -> agregar node_modules
+
+`/node_modules` (la carpeta se sombreará)
+
+#### 4. Creo archivo de configuración de tailwind:
 `npx tailwind init`
 
 utilizo expresion regular ['./*.html'] (indico que todos los archivos utilizaran tailwind y el index.html)
 
-#### 4. Compilar archivo de salida css cada vez que se realice algun cambio:
+#### 5. Compilar archivo de salida css cada vez que se realice algun cambio:
 `npx tailwindcss -i tailwind.css -o styles.css`
 
 indico archivo base que utilizara para compilar y nombre del archivo de salida
 
-#### 5. Agrego compilador vite al proyecto:
+#### 6. Agrego compilador vite al proyecto:
 `npm i -D vite postcss autoprefixer`
 
-#### 6. Configuro postcss:
+#### 7. Configuro postcss:
 `npx tailwindcss init -p`
 
-#### 7. Agrego scripts a package.json:
+#### 8. Agrego scripts a package.json:
     "dev": "vite dev",
     "build": "vite build",
     "preview": "vite preview"
 
-#### 8. Reemplazo archivo tailwind.css en index.html y vite lo compilara:
+#### 9. Reemplazo archivo tailwind.css en index.html y vite lo compilara:
 
   `<link rel="stylesheet" href="tailwind.css">`
 
-#### 9. Ejecuto seervidor vite para correr appicación:
+#### 10. Ejecuto seervidor vite para correr appicación:
 
 `npm run dev`
 
-#### 10. Creo archivo de producción:
+#### 11. Creo archivo de producción:
 `npm run build`
 
 se crea la carpeta dist con assets y archivos index.html y css para producción
 
-#### 11. Visualizar archivo:
+#### 12. Visualizar archivo:
 `npm run preview`
 
